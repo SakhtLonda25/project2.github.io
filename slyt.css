@@ -61,3 +61,17 @@ img{
 .btn:hover{
 background-color: #4caf84;
 }
+ .wrapper{
+    display: flex;
+    }
+    .wrapper>div {
+        font-size: 3vh;
+        color: rgb(15, 15, 15);
+        background: rgb(236, 237, 238);
+        margin: .9em;
+        height: 30%;
+        padding: .3em;
+        border-radius: 4px;
+        flex: 1;
+        box-shadow: 1px 1px 2px black;
+    } 
